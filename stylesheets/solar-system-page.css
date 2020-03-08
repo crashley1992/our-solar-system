@@ -1,0 +1,150 @@
+body {
+    background-color: #333;
+    color: white;
+    font-family: 'Amatic SC', cursive;
+}
+
+#sun {
+    /* Position */
+    right: 0;
+    position: absolute;
+    z-index: -5px;
+    margin-left: 5%;
+    /* Size */
+    width: 500px;
+    height: 500px;
+    /* Color & Shape */
+    border-radius: 50%;
+    background-color: yellow;
+    box-shadow:
+    0 0 20px 10px #FFC930,  /* inner*/
+    0 0 50px 15px #FF5621, /* middle*/
+    0 0 500px 30px #FFEA5F; /* outer*/
+}
+
+/* Mercury */
+#mercury {
+     /* Position */
+     z-index: -5px;
+     /* Size */
+     width: 1.75px;
+     height: 1.75px;
+     /* Color & Shape */
+     border-radius: 50%;
+     background-color: yellow;
+     box-shadow:
+     0 0 20px 10px #FFC930,  /* inner*/
+     0 0 50px 15px #FF5621, /* middle*/
+     0 0 500px 30px #FFEA5F; /* outer*/
+ }
+ 
+ 
+/* venus */
+#venus {
+    /* Position */
+    z-index: -5px;
+    /* Size */
+    width: 4.34px;
+    height: 4.34px;
+    /* Color & Shape */
+    border-radius: 50%;
+    background-color: yellow;
+    box-shadow:
+    0 0 20px 10px #FFC930,  /* inner*/
+    0 0 50px 15px #FF5621, /* middle*/
+    0 0 500px 30px #FFEA5F; /* outer*/
+}
+
+/* Earth */
+#earth {
+    /* Position */
+    z-index: -5px;
+    /* Size */
+    width: 4.57px;
+    height: 4.57px;
+    /* Color & Shape */
+    border-radius: 50%;
+    background-color: yellow;
+    box-shadow:
+    0 0 20px 10px #FFC930,  /* inner*/
+    0 0 50px 15px #FF5621, /* middle*/
+    0 0 500px 30px #FFEA5F; /* outer*/
+}
+
+/* mars */
+#mars {
+    /* Position */
+    z-index: -5px;
+    /* Size */
+    width: 2.43px;
+    height: 2.43px;
+    /* Color & Shape */
+    border-radius: 50%;
+    background-color: yellow;
+    box-shadow:
+    0 0 20px 10px #FFC930,  /* inner*/
+    0 0 50px 15px #FF5621, /* middle*/
+    0 0 500px 30px #FFEA5F; /* outer*/
+}
+
+/* jupiter */
+#jupiter {
+    /* Position */
+    z-index: -5px;
+    /* Size */
+    width: 50.24px;
+    height: 50.24px;
+    /* Color & Shape */
+    border-radius: 50%;
+    background-color: yellow;
+    box-shadow:
+    0 0 20px 10px #FFC930,  /* inner*/
+    0 0 50px 15px #FF5621, /* middle*/
+    0 0 500px 30px #FFEA5F; /* outer*/
+}
+
+/* saturn */
+#saturn {
+    /* Position */
+    z-index: -5px;
+    /* Size */
+    width: 41.83px;
+    height: 41.83px;
+    /* Color & Shape */
+    border-radius: 50%;
+    background-color: yellow;
+    box-shadow:
+    0 0 20px 10px #FFC930,  /* inner*/
+    0 0 50px 15px #FF5621, /* middle*/
+    0 0 500px 30px #FFEA5F; /* outer*/
+}
+
+#uranus {
+       /* Position */
+       z-index: -5px;
+       /* Size */
+       width: 18.22px;
+       height: 18.22px;
+       /* Color & Shape */
+       border-radius: 50%;
+       background-color: yellow;
+       box-shadow:
+       0 0 20px 10px #FFC930,  /* inner*/
+       0 0 50px 15px #FF5621, /* middle*/
+       0 0 500px 30px #FFEA5F; /* outer*/
+   }
+
+   #neptune {
+    /* Position */
+    z-index: -5px;
+    /* Size */
+    width: 17.69px;
+    height: 17.69px;
+    /* Color & Shape */
+    border-radius: 50%;
+    background-color: yellow;
+    box-shadow:
+    0 0 20px 10px #FFC930,  /* inner*/
+    0 0 50px 15px #FF5621, /* middle*/
+    0 0 500px 30px #FFEA5F; /* outer*/
+}
