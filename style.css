@@ -1,0 +1,175 @@
+body {
+    background-color: #333;
+    color: white;
+    font-family: 'Amatic SC', cursive;
+}
+/* Styling for Header title, looks good on all devices */
+.header-title {
+    height: 200px;
+    text-align: center;
+}
+
+.header-title h1{
+    font-size: 50px;
+    line-height: 1.3;
+    position: relative;
+    animation: heading;
+    animation-duration: 4s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes heading {
+    0% {top: -50px}
+    100% {top: 150px}
+}
+/* Button animation for Let's Go button */
+.btn {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    padding: 1rem 2rem;
+    border: #fff 1px solid;
+    opacity: 0;
+    animation-name: btn;
+    animation-duration: 3s;
+    animation-delay: 3s;
+    animation-fill-mode: forwards;
+    transition-property: transform;
+    transition-duration: 1s;
+    width: 35px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 2%;
+    margin-top: 5%;
+    border-radius: 5%;
+}
+
+@keyframes btn {
+    0%   {opacity: 0}
+    100% {opacity: 1}
+}
+/* Positining and animation for astronaut image */
+.image-container {
+    text-align: center;
+}
+
+#astronaut {
+    width: 250px;
+    height: 250px;
+    animation-name: astronaut;
+    animation-duration: 3s;
+    animation-delay: 3s;
+    opacity: 0;
+    animation-fill-mode: forwards;
+}
+
+@keyframes astronaut {
+    0%   {opacity: 0}
+    100% {opacity: 1;}
+}
+
+/* Stars */
+.star1 {
+    /* Position */
+    top: 3%;
+    position: absolute;
+    z-index: -5px;
+    margin-left: 5%;
+    /* Size */
+    width: 40px;
+    height: 40px;
+    /* Color & Shape */
+    border-radius: 50%;
+    background-color: yellow;
+    box-shadow:
+    0 0 20px 10px #FFC930,  /* inner*/
+    0 0 50px 15px #FF5621, /* middle*/
+    0 0 500px 30px #FFEA5F; /* outer*/
+}
+
+.star2 {
+    /* Position */
+    z-index: -5px;
+    margin-left: 25%;
+    /* Size */
+    width: 40px;
+    height: 40px;
+    /* Color & Shape */
+    background-color: yellow;
+    border-radius: 50%;
+    box-shadow:
+    0 0 20px 10px #FFC930,  /* inner*/
+    0 0 50px 15px #FF5621, /* middle*/
+    0 0 500px 30px #FFEA5F; /* outer*/
+}
+
+.star3 {
+     /* Position */
+     z-index: -5px;
+    margin-left: 85%;
+    /* Size */
+    width: 40px;
+    height: 40px;
+    /* Color & Shape */
+    background-color: yellow;
+    border-radius: 50%;
+    box-shadow:
+    0 0 20px 10px #FFC930,  /* inner*/
+    0 0 50px 15px #FF5621, /* middle*/
+    0 0 500px 30px #FFEA5F; /* outer*/
+}
+
+.star4 {
+     /* Position */
+     z-index: -5px;
+     margin-left: 65%;
+     top: 35%;
+     position: absolute;
+    /* Size */
+     width: 20px;
+     height: 20px;
+    /* Color & Shape */
+    background-color: yellow;
+    border-radius: 50%;
+    box-shadow:
+    0 0 20px 10px #FFC930,  /* inner*/
+    0 0 50px 15px #FF5621, /* middle*/
+    0 0 500px 30px #FFEA5F; /* outer*/
+}
+
+.star5 {
+    /* Position */
+    top: 15%;
+    right: 5%;
+    z-index: -5px;
+    position: absolute;
+   /* Size */
+    width: 20px;
+    height: 20px;
+   /* Color & Shape */
+   background-color: yellow;
+   border-radius: 50%;
+   box-shadow:
+   0 0 20px 10px #FFC930,  /* inner*/
+   0 0 50px 15px #FF5621, /* middle*/
+   0 0 500px 30px #FFEA5F; /* outer*/
+}
+
+.star6 {
+    /* Position */
+    top: 45%;
+    right: 85%;
+    z-index: -5px;
+    position: absolute;
+   /* Size */
+    width: 20px;
+    height: 20px;
+   /* Color & Shape */
+   background-color: yellow;
+   border-radius: 50%;
+   box-shadow:
+   0 0 20px 10px #FFC930,  /* inner*/
+   0 0 50px 15px #FF5621, /* middle*/
+   0 0 500px 30px #FFEA5F; /* outer*/
+}
+
