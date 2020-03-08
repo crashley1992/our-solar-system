@@ -4,6 +4,12 @@ body {
     font-family: 'Amatic SC', cursive;
 }
 
+/* Line height between planet name and distance */
+p {
+    line-height: 10px;
+}
+
+/* Sun */
 #sun {
     /* Position */
     right: 0;
@@ -26,16 +32,19 @@ body {
 #mercury {
      /* Position */
      z-index: -5px;
+     margin-top: 10%;
+     margin-right: 45%;
+     float: right;
      /* Size */
      width: 1.75px;
      height: 1.75px;
      /* Color & Shape */
      border-radius: 50%;
-     background-color: yellow;
+     background-color: #FFAF7D;
      box-shadow:
-     0 0 20px 10px #FFC930,  /* inner*/
-     0 0 50px 15px #FF5621, /* middle*/
-     0 0 500px 30px #FFEA5F; /* outer*/
+     0 0 20px 10px #FFC65E,  /* inner*/
+     0 0 50px 15px #FFAE7C, /* middle*/
+     0 0 500px 30px #EB7326; /* outer*/
  }
  
  
@@ -43,6 +52,9 @@ body {
 #venus {
     /* Position */
     z-index: -5px;
+    margin-top: 15%;
+    margin-right: 5%;
+    float: right;
     /* Size */
     width: 4.34px;
     height: 4.34px;
@@ -59,92 +71,110 @@ body {
 #earth {
     /* Position */
     z-index: -5px;
+    margin-top: 20%;
+    margin-right: 5%;
+    float: right;
     /* Size */
     width: 4.57px;
     height: 4.57px;
     /* Color & Shape */
     border-radius: 50%;
-    background-color: yellow;
+    background-color: #34EB50;
     box-shadow:
-    0 0 20px 10px #FFC930,  /* inner*/
-    0 0 50px 15px #FF5621, /* middle*/
-    0 0 500px 30px #FFEA5F; /* outer*/
+    0 0 20px 10px #34EBAA,  /* inner*/
+    0 0 50px 15px #34EB67, /* middle*/
+    0 0 500px 30px #37EB68; /* outer*/
 }
 
 /* mars */
 #mars {
     /* Position */
     z-index: -5px;
+    margin-top: 25%;
+    margin-right: 5%;
+    float: right;
     /* Size */
     width: 2.43px;
     height: 2.43px;
     /* Color & Shape */
     border-radius: 50%;
-    background-color: yellow;
+    background-color: #FF4625;
     box-shadow:
-    0 0 20px 10px #FFC930,  /* inner*/
-    0 0 50px 15px #FF5621, /* middle*/
-    0 0 500px 30px #FFEA5F; /* outer*/
+    0 0 20px 10px #FF8726,  /* inner*/
+    0 0 50px 15px #EB281D, /* middle*/
+    0 0 500px 30px #EB0729; /* outer*/
 }
 
 /* jupiter */
 #jupiter {
     /* Position */
     z-index: -5px;
+    margin-top: 30%;
+    margin-right: 5%;
+    float: right;
     /* Size */
     width: 50.24px;
     height: 50.24px;
     /* Color & Shape */
     border-radius: 50%;
-    background-color: yellow;
+    background-color: #EBD53F;
     box-shadow:
-    0 0 20px 10px #FFC930,  /* inner*/
-    0 0 50px 15px #FF5621, /* middle*/
-    0 0 500px 30px #FFEA5F; /* outer*/
+    0 0 20px 10px #FFC32B,  /* inner*/
+    0 0 50px 15px #F8FF82, /* middle*/
+    0 0 500px 30px #EB9426; /* outer*/
 }
 
 /* saturn */
 #saturn {
     /* Position */
     z-index: -5px;
+    margin-top: 35%;
+    margin-right: 5%;
+    float: right;
     /* Size */
     width: 41.83px;
     height: 41.83px;
     /* Color & Shape */
     border-radius: 50%;
-    background-color: yellow;
+    background-color: #FF904D;
     box-shadow:
-    0 0 20px 10px #FFC930,  /* inner*/
-    0 0 50px 15px #FF5621, /* middle*/
-    0 0 500px 30px #FFEA5F; /* outer*/
+    0 0 20px 10px #EB8617,  /* inner*/
+    0 0 50px 15px #FFA812, /* middle*/
+    0 0 500px 30px #FFEE9C; /* outer*/
 }
 
 #uranus {
        /* Position */
        z-index: -5px;
+       margin-top: 40%;
+       margin-right: 5%;
+       float: right;
        /* Size */
        width: 18.22px;
        height: 18.22px;
        /* Color & Shape */
        border-radius: 50%;
-       background-color: yellow;
+       background-color: #79E4FF;
        box-shadow:
-       0 0 20px 10px #FFC930,  /* inner*/
-       0 0 50px 15px #FF5621, /* middle*/
-       0 0 500px 30px #FFEA5F; /* outer*/
+       0 0 20px 10px #CEEBB9,  /* inner*/
+       0 0 50px 15px #65FFEB, /* middle*/
+       0 0 500px 30px #638BFF; /* outer*/
    }
 
    #neptune {
     /* Position */
     z-index: -5px;
+    margin-top: 45%;
+    margin-right: 5%;
+    float: right;
     /* Size */
     width: 17.69px;
     height: 17.69px;
     /* Color & Shape */
     border-radius: 50%;
-    background-color: yellow;
+    background-color: #3C7AFF;
     box-shadow:
-    0 0 20px 10px #FFC930,  /* inner*/
-    0 0 50px 15px #FF5621, /* middle*/
-    0 0 500px 30px #FFEA5F; /* outer*/
+    0 0 20px 10px #29C7FF,  /* inner*/
+    0 0 50px 15px #54A2FF, /* middle*/
+    0 0 500px 30px #5E86FF; /* outer*/
 }
