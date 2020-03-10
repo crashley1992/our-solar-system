@@ -9,10 +9,51 @@ p {
     line-height: 10px;
 }
 
+#solar-system-container {
+    height: 30px
+}
+
+#astronaut-solar-system {
+    width: 100px;
+    height: 100px;
+    margin-left: 25%;
+    margin-top: 15%;
+    position: absolute;
+    margin-left: 0;
+}
+
+#intro-text {
+    margin-top: 15%;
+    display: inline-block;
+    margin-right: 0;
+}
+
+#home {
+    color: #fff;
+    text-decoration: none;
+    padding: 1rem 2rem;
+    border: #fff 1px solid;
+    border-radius: 3%;
+    display: inline-block;
+    position: absolute;
+}
+
+#home:hover {
+    color:black;
+    background-color: white;
+}
+
+.distance-text {
+    font-size: 10px;
+    border: white solid 2px;
+    width: 100px;
+}
+
 /* Sun */
 #sun {
     /* Position */
     right: 0;
+    top: 100px;
     position: absolute;
     z-index: -5px;
     margin-left: 5%;
@@ -44,10 +85,16 @@ p {
      box-shadow:
      0 0 20px 10px #FFC65E,  /* inner*/
      0 0 50px 15px #FFAE7C, /* middle*/
-     0 0 500px 30px #EB7326; /* outer*/
+    /* 0 0 500px 30px #EB7326; /* outer*/
  }
  
- 
+ #mercury-distance {
+    border-bottom: solid white 2px;
+    width: 175px;
+    padding-bottom: 5px;
+    font-size: 12px;
+ }
+
 /* venus */
 #venus {
     /* Position */
@@ -64,8 +111,15 @@ p {
     box-shadow:
     0 0 20px 10px #FFC930,  /* inner*/
     0 0 50px 15px #FF5621, /* middle*/
-    0 0 500px 30px #FFEA5F; /* outer*/
+   /* 0 0 500px 30px #FFEA5F; /* outer*/
 }
+
+#venus-distance {
+    border-bottom: solid white 2px;
+    width: 250px;
+    padding-bottom: 5px;
+    font-size: 12px;
+ }
 
 /* Earth */
 #earth {
@@ -83,8 +137,15 @@ p {
     box-shadow:
     0 0 20px 10px #34EBAA,  /* inner*/
     0 0 50px 15px #34EB67, /* middle*/
-    0 0 500px 30px #37EB68; /* outer*/
+   /* 0 0 500px 30px #37EB68; /* outer*/
 }
+
+#earth-distance {
+    border-bottom: solid white 2px;
+    width: 325px;
+    padding-bottom: 5px;
+    font-size: 12px;
+ }
 
 /* mars */
 #mars {
@@ -102,14 +163,21 @@ p {
     box-shadow:
     0 0 20px 10px #FF8726,  /* inner*/
     0 0 50px 15px #EB281D, /* middle*/
-    0 0 500px 30px #EB0729; /* outer*/
+    /*0 0 500px 30px #EB0729; /* outer*/
 }
+
+#mars-distance {
+    border-bottom: solid white 2px;
+    width: 400px;
+    padding-bottom: 5px;
+    font-size: 12px;
+ }
 
 /* jupiter */
 #jupiter {
     /* Position */
     z-index: -5px;
-    margin-top: 30%;
+    margin-top: 28%;
     margin-right: 5%;
     float: right;
     /* Size */
@@ -121,14 +189,25 @@ p {
     box-shadow:
     0 0 20px 10px #FFC32B,  /* inner*/
     0 0 50px 15px #F8FF82, /* middle*/
-    0 0 500px 30px #EB9426; /* outer*/
+    /* 0 500px 30px #EB9426; /* outer*/
 }
+
+#jupiter-name {
+    padding-top: 45px;
+}
+
+#jupiter-distance {
+    border-bottom: solid white 2px;
+    width: 525px;
+    padding-bottom: 5px;
+    font-size: 12px;
+ }
 
 /* saturn */
 #saturn {
     /* Position */
     z-index: -5px;
-    margin-top: 35%;
+    margin-top: 18%;
     margin-right: 5%;
     float: right;
     /* Size */
@@ -140,13 +219,26 @@ p {
     box-shadow:
     0 0 20px 10px #EB8617,  /* inner*/
     0 0 50px 15px #FFA812, /* middle*/
-    0 0 500px 30px #FFEE9C; /* outer*/
+   /* 0 0 500px 30px #FFEE9C; /* outer*/
 }
 
+#saturn-name {
+    padding-top: 30px;
+}
+
+
+#saturn-distance {
+    border-bottom: solid white 2px;
+    width: 640px;
+    padding-bottom: 5px;
+    font-size: 12px;
+ }
+
+/* Uranus */
 #uranus {
        /* Position */
        z-index: -5px;
-       margin-top: 40%;
+       margin-top: 25%;
        margin-right: 5%;
        float: right;
        /* Size */
@@ -158,14 +250,26 @@ p {
        box-shadow:
        0 0 20px 10px #CEEBB9,  /* inner*/
        0 0 50px 15px #65FFEB, /* middle*/
-       0 0 500px 30px #638BFF; /* outer*/
+       /*0 0 5px 5px #638BFF; /* outer*/
    }
 
+   #uranus-name {
+       padding-top: 15px;
+   }
+
+   #uranus-distance {
+    border-bottom: solid white 2px;
+    width: 735px;
+    padding-bottom: 5px;
+    font-size: 12px;
+ }
+   /* Neptune */
    #neptune {
     /* Position */
     z-index: -5px;
-    margin-top: 45%;
+    margin-top: 30%;
     margin-right: 5%;
+    margin-bottom: 15%;
     float: right;
     /* Size */
     width: 17.69px;
@@ -174,7 +278,18 @@ p {
     border-radius: 50%;
     background-color: #3C7AFF;
     box-shadow:
-    0 0 20px 10px #29C7FF,  /* inner*/
-    0 0 50px 15px #54A2FF, /* middle*/
-    0 0 500px 30px #5E86FF; /* outer*/
+     0 0 5px 5px #29C7FF,  /* inner*/
+    0 0 5px 5px #54A2FF,  /*middle*/
+    /* 0 0 1px 1px #5E86FF; outer */
 }
+
+#neptune-name {
+    padding-top: 10px;
+}
+
+#neptune-distance {
+    border-bottom: solid white 2px;
+    width: 825px;
+    padding-bottom: 5px;
+    font-size: 12px;
+ }
