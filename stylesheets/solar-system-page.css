@@ -9,6 +9,15 @@ p {
     line-height: 10px;
 }
 
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover {
+    color: goldenrod;
+}
+
 #solar-system-container {
     height: 30px
 }
@@ -62,7 +71,7 @@ p {
     height: 500px;
     /* Color & Shape */
     border-radius: 50%;
-    background-color: yellow;
+    background-color: goldenrod;
     box-shadow:
     0 0 20px 10px #FFC930,  /* inner*/
     0 0 50px 15px #FF5621, /* middle*/
@@ -177,7 +186,7 @@ p {
 #jupiter {
     /* Position */
     z-index: -5px;
-    margin-top: 28%;
+    margin-top: 11%;
     margin-right: 5%;
     float: right;
     /* Size */
