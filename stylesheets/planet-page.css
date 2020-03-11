@@ -1,0 +1,56 @@
+body {
+    background-color: #333;
+    color: white;
+    font-family: 'Amatic SC', cursive;
+}
+
+#home {
+    color: #fff;
+    text-decoration: none;
+    padding: 1rem 2rem;
+    border: #fff 1px solid;
+    border-radius: 3%;
+}
+
+#home:hover {
+    color:black;
+    background-color: white;
+}
+
+#solar-system-button {
+    color: #fff;
+    text-decoration: none;
+    padding: 1rem 2rem;
+    border: #fff 1px solid;
+    border-radius: 3%;
+}
+
+#solar-system-button:hover  {
+    color:black;
+    background-color: white;
+}
+
+.planet-name {
+    text-align: center;
+}
+
+.planet-img {
+    border-radius: 50%;
+    display: inline-block;
+    margin-left: 5%;
+}
+
+.planet-content {
+    width: 55%;
+    float: right;
+    margin-right: 20%;
+}
+
+.youtube-container {
+    text-align: center;
+}
+
+.youtube-vid {
+    width: 800px;
+    height: 500px
+}
