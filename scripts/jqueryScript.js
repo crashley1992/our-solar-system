@@ -1,4 +1,5 @@
-$(document).ready(function () {                        
+$(document).ready(function () {    
+    //onload the planet gets smaller                    
 $('.planet-img').delay(2000).animate({
     width: '250px',
     height: '250px'
@@ -9,6 +10,9 @@ $('.planet-img').delay(2000).animate({
     $('#home').fadeIn(1000).css("display", "inline-block");
     $('#solar-system-button').fadeIn(1000).css("display", "inline-block");
     });
-
-    $('.astronaut-image-planet').fadeOut(3000);
+    //Makes astronaut shrink at the same time as the planet
+    $('.astronaut-image-planet').delay(2000).animate({
+        width: '35px',
+        height: '35px',
+    }, 2000)
 });

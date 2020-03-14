@@ -42,7 +42,7 @@ body {
     margin-left: auto;
     margin-right: auto;
 }
-
+/* Planet image that shrinks */
 .planet-img {
     border-radius: 50%;
     display: inline-block;
@@ -51,7 +51,7 @@ body {
     width: 500px;
     height: 500px;
 }
-
+/* for the astronaut with each planet that fades away */
 .astronaut-image-planet {
     height: 250px;
     width: 250px;
@@ -62,7 +62,6 @@ body {
     float: right;
     margin-right: 20%;
     display: none;
-
 }
 
 .youtube-container {
