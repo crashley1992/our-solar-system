@@ -1,3 +1,4 @@
+//This is for the planet pages into animations
 $(document).ready(function () {    
     //onload the planet gets smaller                    
 $('.planet-img').delay(2000).animate({
@@ -16,3 +17,4 @@ $('.planet-img').delay(2000).animate({
         height: '35px',
     }, 2000)
 });
+

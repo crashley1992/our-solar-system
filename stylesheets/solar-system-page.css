@@ -23,12 +23,32 @@ a:hover {
 }
 
 #astronaut-solar-system {
-    width: 100px;
-    height: 100px;
-    margin-left: 25%;
-    margin-top: 15%;
+    width: 75px;
+    height: 75px;
+    display: block;
+    margin-left: 30%;
     position: absolute;
-    margin-left: 0;
+    animation: MoveUpDown 1s linear infinite;
+}
+/* Animation for making the astronaut look like they are floating up and down */
+@keyframes MoveUpDown {
+    0% {
+        margin-top: -1px;
+        margin-bottom: 1px;   
+        animation-delay: 1s;         
+    }
+
+    25% {
+        margin-top: -2px;
+        margin-bottom: 2px;
+        animation-delay: 2s;    
+    }
+
+    100% {
+        margin-top: 0px;
+        margin-bottom: 0px;
+        animation-delay: 1s;  
+    }
 }
 
 #intro-text {
