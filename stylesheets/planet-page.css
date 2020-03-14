@@ -4,12 +4,17 @@ body {
     font-family: 'Amatic SC', cursive;
 }
 
+.button-container {
+    height: 100px;
+}
+
 #home {
     color: #fff;
     text-decoration: none;
     padding: 1rem 2rem;
     border: #fff 1px solid;
     border-radius: 3%;
+    display: none;
 }
 
 #home:hover {
@@ -23,6 +28,7 @@ body {
     padding: 1rem 2rem;
     border: #fff 1px solid;
     border-radius: 3%;
+    display: none;
 }
 
 #solar-system-button:hover  {
@@ -32,22 +38,37 @@ body {
 
 .planet-name {
     text-align: center;
+    width: 25%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .planet-img {
     border-radius: 50%;
     display: inline-block;
+    position: relative;
     margin-left: 5%;
+    width: 500px;
+    height: 500px;
+}
+
+.astronaut-image-planet {
+    height: 250px;
+    width: 250px;
 }
 
 .planet-content {
     width: 55%;
     float: right;
     margin-right: 20%;
+    display: none;
+
 }
 
 .youtube-container {
     text-align: center;
+    display: none;
+
 }
 
 .youtube-vid {
